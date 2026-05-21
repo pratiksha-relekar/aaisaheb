@@ -73,6 +73,11 @@
   --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
 
+  /* Height of the fixed top navigation. The body gets a matching
+     padding-top so content never hides behind the bar, and anchored
+     sections use it for scroll-margin-top. */
+  --nav-height: 68px;
+
   font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.5;
@@ -84,8 +89,14 @@
   text-rendering: optimizeLegibility;
   font-synthesis: none;
 
+  scroll-behavior: smooth;
+
   /* Smooth swap between themes */
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media (max-width: 540px) {
+  :root { --nav-height: 60px; }
 }
 
 *,
@@ -100,6 +111,15 @@ body {
   padding: 0;
   background: var(--bg);
   overflow-x: hidden;
+}
+
+/* Reserve space so the fixed header never overlaps content */
+body { padding-top: var(--nav-height); }
+
+/* When jumping to anchor links (e.g. /#privacy), don't hide the
+   target heading behind the fixed nav */
+section[id] {
+  scroll-margin-top: calc(var(--nav-height) + 8px);
 }
 
 #root {

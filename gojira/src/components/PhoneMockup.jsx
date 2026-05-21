@@ -6,7 +6,7 @@ import homeShot from '../assets/a4.jpeg'
 /* ----------------------- Phone Mockup (Now Playing) ----------------------- */
 export function PhonePlayer({ artistTone = 'red' }) {
   // Both tones now render a real artwork on the cover:
-  //   red   -> a7.jpeg (Starboy-style cover from screenshot 1)
+  //   red   -> a7.jpeg (warm-toned devotional cover)
   //   green -> a6.jpeg (Aaisaheb portrait — replaces the green silhouette)
   const coverByTone = {
     red: coverRed,
@@ -66,8 +66,8 @@ export function PhonePlayer({ artistTone = 'red' }) {
         </div>
 
         <div className="meta">
-          <h4>Starboy</h4>
-          <p>The Weeknd</p>
+          <h4>Jiv laun Geli Jivala</h4>
+          <p>Today Playlist</p>
         </div>
 
         <div className="progress">
