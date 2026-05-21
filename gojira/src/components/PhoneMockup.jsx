@@ -101,7 +101,7 @@ export function PhoneHome() {
     <div className="phone phone--home">
       <div className="phone-notch" />
       <div className="phone-screen phone-screen--shot">
-        <img src={homeShot} alt="Gojira app home screen" />
+        <img src={homeShot} alt="Aaisaheb app home screen" />
       </div>
     </div>
   )

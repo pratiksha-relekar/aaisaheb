@@ -25,9 +25,9 @@ export default function Login() {
           Welcome <span className="accent">back</span>
         </>
       }
-      subtitle="Sign in to continue your music journey with Gojira."
+      subtitle="Sign in to continue your daily devotion with Aaisaheb Maharaj."
       switchPrompt="Don’t have an account?"
-      switchLabel="Create one"
+      switchLabel="Sign Up"
       switchTo="/signup"
     >
       <form className="auth-form" onSubmit={handleSubmit}>
@@ -100,11 +100,11 @@ export default function Login() {
         <div className="auth-oauth">
           <button type="button" className="oauth-btn">
             <Icon.Google width="20" height="20" />
-            <span>Google</span>
+            <span>Continue with Google</span>
           </button>
           <button type="button" className="oauth-btn">
             <Icon.Apple width="20" height="20" />
-            <span>Apple</span>
+            <span>Continue with Apple</span>
           </button>
         </div>
       </form>

@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
 import { Icon } from '../icons.jsx'
 import { PhonePlayer } from './PhoneMockup.jsx'
+import brandLogo from '../assets/a5.jpeg'
 
 /**
  * Shared shell for /login and /signup.
  * Left column = form (children).
- * Right column = orange Gojira showcase with phone mockup + watermark.
+ * Right column = orange Aaisaheb showcase with phone mockup + watermark.
  */
 export default function AuthLayout({
   eyebrow,
@@ -20,7 +21,7 @@ export default function AuthLayout({
     <div className="auth">
       <header className="auth-nav">
         <Link to="/" className="nav-brand">
-          <Icon.Logo width="22" height="22" />
+          <img src={brandLogo} alt="Gojira" className="nav-logo" />
           <span>GOJIRA</span>
         </Link>
         <Link to="/" className="auth-nav-back">
@@ -57,12 +58,12 @@ export default function AuthLayout({
 
           <div className="auth-showcase-inner">
             <div className="auth-showcase-meta top-left">
-              <span>Gojira</span>
-              <span>Music App</span>
+              <span>Aaisaheb</span>
+              <span>Sansthan</span>
             </div>
             <div className="auth-showcase-meta top-right">
-              <span>The future of</span>
-              <span>music listening</span>
+              <span>Late</span>
+              <span>(Bajaranvadi)</span>
             </div>
 
             <div className="auth-showcase-phone">
@@ -71,11 +72,11 @@ export default function AuthLayout({
 
             <div className="auth-showcase-quote">
               <h3>
-                Feel your music. <br /> Don’t just hear it.
+                Daily darshan. <br /> Eternal grace.
               </h3>
               <p>
-                Join thousands of listeners turning every track into an
-                immersive, interactive experience with Gojira.
+                Join thousands of devotees who carry Aaisaheb Maharaj's
+                blessings with them every single day.
               </p>
             </div>
           </div>

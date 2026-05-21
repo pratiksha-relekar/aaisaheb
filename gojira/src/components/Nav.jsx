@@ -37,27 +37,39 @@ export default function Nav() {
       </Link>
 
       <nav className={`nav-links ${open ? 'is-open' : ''}`}>
-        <a href="/#problem" onClick={close}>Why Gojira</a>
+        <a href="/#problem" onClick={close}>Sansthan</a>
         <a href="/#features" onClick={close}>Features</a>
-        <a href="/#idea" onClick={close}>Experience</a>
+        <a href="/#idea" onClick={close}>Mission</a>
         <a href="/#privacy" onClick={close}>Privacy</a>
-        <a href="/#testimonials" onClick={close}>Reviews</a>
-        <a href="/#pricing" onClick={close}>Pricing</a>
+        <a href="/#testimonials" onClick={close}>Devotees</a>
+        <a href="/#pricing" onClick={close}>Sevā</a>
+
+        {/* Mobile-only CTAs — surfaced inside the burger dropdown */}
         <a
           href="/#download"
-          className="btn btn-primary nav-mobile-cta"
+          className="btn btn-ghost nav-mobile-link"
           onClick={close}
         >
           Get the App
-          <Icon.Arrow width="14" height="14" />
         </a>
+        <Link
+          to="/login"
+          className="btn btn-primary nav-mobile-cta"
+          onClick={close}
+        >
+          Sign Up / Login
+          <Icon.Arrow width="14" height="14" />
+        </Link>
       </nav>
 
       <div className="nav-cta">
-        <a href="/#download" className="btn btn-primary" onClick={close}>
+        <a href="/#download" className="btn btn-ghost nav-login" onClick={close}>
           Get the App
-          <Icon.Arrow width="16" height="16" />
         </a>
+        <Link to="/login" className="btn btn-primary" onClick={close}>
+          Sign Up / Login
+          <Icon.Arrow width="16" height="16" />
+        </Link>
 
         <button
           type="button"

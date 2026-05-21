@@ -36,7 +36,7 @@ export default function Signup() {
           Start your <span className="accent">journey</span>
         </>
       }
-      subtitle="Create a free Gojira account and step into next-gen music."
+      subtitle="Create a free account and join the daily darshan of Aaisaheb Maharaj."
       switchPrompt="Already have an account?"
       switchLabel="Sign in"
       switchTo="/login"
@@ -144,7 +144,7 @@ export default function Signup() {
           />
           <span className="checkbox-box" />
           <span>
-            I agree to Gojira’s <a href="#">Terms</a> and{' '}
+            I agree to the Sansthan’s <a href="#">Terms</a> and{' '}
             <a href="#">Privacy Policy</a>.
           </span>
         </label>

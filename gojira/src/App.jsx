@@ -5,9 +5,8 @@ import { PhonePlayer, PhoneHome } from './components/PhoneMockup.jsx'
 import Nav from './components/Nav.jsx'
 import Footer from './components/Footer.jsx'
 import PrivacySection from './components/PrivacySection.jsx'
-// Auth pages are temporarily disabled — files kept for re-enabling later.
-// import Login from './pages/Login.jsx'
-// import Signup from './pages/Signup.jsx'
+import Login from './pages/Login.jsx'
+import Signup from './pages/Signup.jsx'
 import './App.css'
 
 /* --------------------------- Sections --------------------------- */
@@ -21,32 +20,33 @@ function Hero() {
       <div className="hero-grid">
         <div className="hero-headline">
           <h1>
-            <span className="line line-1">The future of</span>
-            <span className="line line-2">music listening</span>
-            <span className="line line-3">experience</span>
+            <span className="line line-1">The divine grace of</span>
+            <span className="line line-2">Aaisaheb Maharaj</span>
+            <span className="line line-3">Late (Bajaranvadi)</span>
           </h1>
         </div>
 
         <div className="hero-copy">
           <p>
-            Redefines what a music app can be—transforming passive listening
-            into an immersive, interactive experience.
+            Sacred bhajans, divine literature and live darshan from our
+            village temple — bringing Aaisaheb Maharaj's eternal blessings
+            to every devotee, wherever they may be.
           </p>
         </div>
 
         <div className="hero-meta meta-left">
-          <span>Gojira</span>
-          <span>Music App</span>
+          <span>Aaisaheb</span>
+          <span>Sansthan</span>
         </div>
 
         <div className="hero-meta meta-right">
-          <span>Jun 17</span>
-          <span>2025</span>
+          <span>Daily</span>
+          <span>Darshan</span>
         </div>
 
         <div className="hero-meta meta-type">
-          <span>Project Type:</span>
-          <span>Experimental</span>
+          <span>Type:</span>
+          <span>Devotional</span>
         </div>
 
         <div className="hero-phone">
@@ -54,15 +54,15 @@ function Hero() {
         </div>
 
         <div className="hero-meta meta-tasks">
-          <span>Research</span>
-          <span>Wireframing</span>
-          <span>Designing</span>
-          <span>Prototyping</span>
+          <span>Bhajans</span>
+          <span>Live Darshan</span>
+          <span>Literature</span>
+          <span>Daily Jaap</span>
         </div>
 
         <div className="hero-meta meta-location">
-          <span>Location:</span>
-          <span>Kerala, India</span>
+          <span>Village:</span>
+          <span>Late (Bajaranvadi)</span>
         </div>
 
         <div className="hero-fab-stack">
@@ -83,20 +83,20 @@ function Hero() {
 
 const FAQS = [
   {
-    q: 'Is Gojira free to use?',
-    a: 'Yes — the core experience is completely free. A Premium plan unlocks Hi-Fi audio, the AI DJ and offline downloads.',
+    q: 'Who is Aaisaheb Maharaj?',
+    a: 'Aaisaheb Maharaj is the revered divine mother of our village Late (Bajaranvadi). For generations, devotees have turned to her for blessings, guidance and spiritual peace.',
   },
   {
-    q: 'Can I listen offline?',
-    a: 'Absolutely. Download any track, playlist or podcast and listen anywhere, no signal needed.',
+    q: 'What does this app include?',
+    a: 'A full library of sacred bhajans, her divine literature and teachings, live darshan from the village temple, a daily jaap streak and the complete festival calendar.',
   },
   {
-    q: 'How is Gojira different from Spotify?',
-    a: 'Spatial 3D audio, an AI DJ that reads your mood, and live rooms where you can listen together with friends and artists.',
+    q: 'Is the live darshan really from the temple?',
+    a: 'Yes — every darshan is streamed directly from the Aaisaheb Maharaj temple in Late (Bajaranvadi), so devotees anywhere in the world can feel like they are home in the village.',
   },
   {
-    q: 'Will my existing playlists transfer?',
-    a: 'Yes — Gojira imports your playlists from Spotify, Apple Music or YouTube Music in a single tap.',
+    q: 'How can I support the sansthan?',
+    a: 'Premium plans directly help us maintain the temple, organise yatras and preserve her literature for future generations. Sharing the app with fellow devotees is equally a beautiful sevā.',
   },
 ]
 
@@ -134,12 +134,13 @@ function Problem() {
 
           <div className="problem-copy">
             <span className="kicker">
-              <Icon.Sparkles width="14" height="14" /> The Problem /
+              <Icon.Sparkles width="14" height="14" /> Why Sansthan /
             </span>
             <h2>
-              Today's players treat music like a flat MP3 file — play, pause,
-              skip. No interaction. No discovery. Just passive consumption.
-              Users deserve to feel their music, not just hear it.
+              Devotees of Aaisaheb Maharaj are scattered across cities and
+              countries — far from Late (Bajaranvadi). Her daily darshan,
+              bhajans and sacred literature deserve to reach every home,
+              not just the village temple.
             </h2>
           </div>
 
@@ -159,26 +160,27 @@ function CoreIdea() {
         <div className="idea-head">
           <div>
             <span className="step">01 /</span>
-            <span className="step-title">The Core Idea</span>
+            <span className="step-title">Our Mission</span>
           </div>
           <span className="kicker">
-            <Icon.Sparkles width="14" height="14" /> Insights /
+            <Icon.Sparkles width="14" height="14" /> Aaisaheb /
           </span>
         </div>
 
         <h2 className="idea-headline">
-          Boring music apps? <br />
-          Outta here! Gojira <br />
-          spins your sound into <br />
-          next-gen magic!
+          Bringing the eternal <br />
+          grace of Late (Bajaranvadi) <br />
+          into every devotee's home, <br />
+          wherever they may be.
         </h2>
 
         <div className="idea-grid">
           <div className="idea-about">
             <span className="muted-label">About /</span>
             <p>
-              Gojira redefines what a music app can be—transforming passive
-              listening into an immersive, interactive experience.
+              A devotional companion built with love for Aaisaheb Maharaj,
+              so her bhajans, darshan and divine literature are with you
+              every single day — at home, at work, on a journey.
             </p>
           </div>
 
@@ -190,10 +192,10 @@ function CoreIdea() {
                 <Icon.Users width="16" height="16" />
               </div>
               <div>
-                <strong>Invite Friends</strong>
-                <p>Invite & earn upto 1000 Credits</p>
+                <strong>Share Sansthan</strong>
+                <p>Spread Aaisaheb's blessings</p>
               </div>
-              <button className="invite-btn">Invite</button>
+              <button className="invite-btn">Share</button>
             </div>
 
             <div className="float-create">
@@ -201,9 +203,9 @@ function CoreIdea() {
                 <Icon.Plus width="14" height="14" />
               </span>
               <span>
-                Create
+                Offer
                 <br />
-                New
+                Prayer
               </span>
             </div>
           </div>
@@ -223,40 +225,40 @@ function CoreIdea() {
 function Features() {
   const items = [
     {
+      icon: <Icon.Heart width="22" height="22" />,
+      title: 'Live Darshan',
+      desc:
+        'Watch live darshan streamed from the Aaisaheb Maharaj temple in Late (Bajaranvadi), morning and evening.',
+    },
+    {
+      icon: <Icon.Headphones width="22" height="22" />,
+      title: 'Sacred Bhajans',
+      desc:
+        'A curated library of bhajans dedicated to Aaisaheb Maharaj, sung by village musicians and beyond.',
+    },
+    {
       icon: <Icon.Sparkles width="22" height="22" />,
-      title: 'AI DJ',
+      title: 'Divine Literature',
       desc:
-        'A smart DJ that mixes, transitions and reads your mood in real-time.',
-    },
-    {
-      icon: <Icon.Wave width="22" height="22" />,
-      title: 'Spatial 3D Audio',
-      desc:
-        'Hear every layer of your favorite tracks like you’re in the studio.',
-    },
-    {
-      icon: <Icon.Users width="22" height="22" />,
-      title: 'Live Sessions',
-      desc:
-        'Join live rooms with friends, artists and creators around the world.',
+        'Read and listen to her teachings, stories and sacred writings preserved across generations.',
     },
     {
       icon: <Icon.Mic width="22" height="22" />,
-      title: 'Podcasts & Talk',
+      title: 'Daily Jaap',
       desc:
-        'Discover voices, shows and stories curated to what you love listening to.',
+        'Keep your daily mantra practice consistent with a peaceful jaap streak counter.',
     },
     {
-      icon: <Icon.Heart width="22" height="22" />,
-      title: 'Mood Playlists',
+      icon: <Icon.Wave width="22" height="22" />,
+      title: 'Festival Calendar',
       desc:
-        'Personalised playlists generated for the moment you’re in right now.',
+        'Never miss Jayanti, yatra or pooja days — the calendar keeps you tied to every sacred date.',
     },
     {
-      icon: <Icon.Download width="22" height="22" />,
-      title: 'Offline & Hi-Fi',
+      icon: <Icon.Users width="22" height="22" />,
+      title: 'Devotee Community',
       desc:
-        'Take Hi-Fi quality with you, anywhere — no signal, no problem.',
+        'Connect with fellow devotees worldwide, share blessings and stay close to the sansthan.',
     },
   ]
   return (
@@ -266,10 +268,10 @@ function Features() {
           <span className="kicker">
             <Icon.Sparkles width="14" height="14" /> Features /
           </span>
-          <h2>Everything Spotify wishes it had.</h2>
+          <h2>Everything a devotee needs, in one place.</h2>
           <p>
-            Gojira packs the essentials of a modern player and stacks the
-            future-facing experiences on top.
+            From the daily darshan to her divine literature — Aaisaheb's
+            sansthan reaches you wherever life has taken you.
           </p>
         </div>
 
@@ -293,8 +295,8 @@ const PLANS = [
     price: 'Free',
     sub: 'Free forever',
     features: [
-      'Play only one music track',
-      'Play Jaap — no streak',
+      'Listen to one sample bhajan',
+      'Jaap — without streak tracking',
       'Darshan previews only',
     ],
     cta: 'Get Started',
@@ -305,13 +307,13 @@ const PLANS = [
     price: 99,
     sub: 'per month • cancel anytime',
     features: [
-      'Full music library',
-      'Live darshan',
+      'Full bhajan library',
+      'Live darshan from the temple',
       'Namaskar enabled',
       '1 comment per day',
-      'Jaap streak',
+      'Daily Jaap streak',
     ],
-    cta: 'Get Premium',
+    cta: 'Become a Sevak',
     featured: true,
     badge: 'Popular',
   },
@@ -323,11 +325,11 @@ const PLANS = [
       'Everything in Premium',
       'Unlimited comments',
       'Unlimited Jaap streak',
-      'Priority darshan access',
-      'Exclusive guru content',
-      'Early access to new features',
+      'Priority darshan on festivals',
+      'Exclusive sacred content',
+      'Support the sansthan directly',
     ],
-    cta: 'Get Pro',
+    cta: 'Become a Bhakta',
     featured: false,
   },
 ]
@@ -350,10 +352,13 @@ function Pricing() {
       <div className="container">
         <div className="section-head">
           <span className="kicker">
-            <Icon.Sparkles width="14" height="14" /> Pricing /
+            <Icon.Sparkles width="14" height="14" /> Sevā /
           </span>
-          <h2>Choose your plan</h2>
-          <p>Pick the plan that fits your daily devotional practice.</p>
+          <h2>Choose your sevā</h2>
+          <p>
+            Pick the plan that fits your daily devotion — every Premium and
+            Pro sevā directly supports the sansthan and Late (Bajaranvadi).
+          </p>
         </div>
 
         <div className="pricing-grid">
@@ -402,10 +407,10 @@ function Pricing() {
 
 function Stats() {
   const data = [
-    { value: '90M+', label: 'Tracks ready to stream' },
-    { value: '4.9★', label: 'Average user rating' },
-    { value: '120+', label: 'Countries supported' },
-    { value: '0', label: 'Ads on premium' },
+    { value: '108+', label: 'Sacred bhajans' },
+    { value: '365', label: 'Days of live darshan' },
+    { value: '5K+', label: 'Devotees connected' },
+    { value: 'Free', label: 'Forever for all' },
   ]
   return (
     <section className="stats">
@@ -426,49 +431,49 @@ function Stats() {
 const TESTIMONIALS = [
   {
     quote:
-      'Gojira has changed my morning routine completely. Live darshan and curated bhajans set the tone for my entire day.',
+      'Living away from Late, this app brings Aaisaheb Maharaj into my home every morning. The live darshan feels like I am back in our village.',
     name: 'Priya Sharma',
-    role: 'Daily Listener',
+    role: 'Devotee, Pune',
     initials: 'PS',
     avatar: 'linear-gradient(135deg, #ff8a4a, #ff5b1f)',
   },
   {
     quote:
-      'The Jaap streak keeps me consistent with my practice. Beautifully designed and so peaceful to use every single day.',
+      'I have finally found a place to listen to all the bhajans my grandmother used to sing. Aaisaheb Maharaj\u2019s grace flows through every track.',
     name: 'Rohan Mehta',
-    role: 'Music Enthusiast',
+    role: 'Daily Listener',
     initials: 'RM',
     avatar: 'linear-gradient(135deg, #6a78ff, #4b5cd6)',
   },
   {
     quote:
-      'Finally an app that respects our devotional traditions. Audio quality is unmatched and Namaskar is a beautiful touch.',
+      'The jaap streak keeps my daily practice consistent. Sharing this with my children has brought our family closer to Aaisaheb.',
     name: 'Anjali Patel',
-    role: 'Spiritual Seeker',
+    role: 'Family Devotee',
     initials: 'AP',
     avatar: 'linear-gradient(135deg, #ffb74a, #ff8a4a)',
   },
   {
     quote:
-      'I have tried many devotional apps but nothing comes close to Gojira. Darshan previews helped me discover new artists.',
+      'Reading her sacred literature on the go has changed my perspective on life. May her blessings reach every devotee, in every corner of the world.',
     name: 'Aarav Kapoor',
-    role: 'Verified Listener',
+    role: 'Devotee, Mumbai',
     initials: 'AK',
     avatar: 'linear-gradient(135deg, #34c19b, #1f9c7a)',
   },
   {
     quote:
-      'Love that I can share moments through comments. It feels like a community of like-minded devotees, not just an app.',
+      'The festival calendar reminded me of Jayanti — I could not visit Late in person but the live darshan kept me connected to our village.',
     name: 'Meera Joshi',
-    role: 'Family Subscriber',
+    role: 'Devotee, Bengaluru',
     initials: 'MJ',
     avatar: 'linear-gradient(135deg, #e85a8a, #c63b6f)',
   },
   {
     quote:
-      'Pro plan unlocked everything I needed — unlimited Jaap streak, priority darshan, exclusive guru content. Worth it.',
+      'My Premium plan supports the sansthan directly. Priority darshan during big festivals is beautiful — worth every rupee, and a humble sevā.',
     name: 'Vikram Iyer',
-    role: 'Pro Member',
+    role: 'Premium Devotee',
     initials: 'VI',
     avatar: 'linear-gradient(135deg, #8a6cff, #5b3fd6)',
   },
@@ -490,8 +495,8 @@ function Testimonials() {
       <div className="container">
         <div className="testimonials-head">
           <div className="testimonials-title">
-            <span className="kicker">Testimonials</span>
-            <h2>People love us, you know.</h2>
+            <span className="kicker">Devotees</span>
+            <h2>Aaisaheb's grace, in their words.</h2>
           </div>
           <div
             className="testimonials-nav"
@@ -549,14 +554,14 @@ function CTA() {
       <div className="container cta-inner">
         <div>
           <span className="kicker dark">
-            <Icon.Sparkles width="14" height="14" /> Download /
+            <Icon.Sparkles width="14" height="14" /> Darshan /
           </span>
           <h2>
-            Ready to feel <br /> your music?
+            Begin your daily <br /> darshan today
           </h2>
           <p>
-            Join the next-gen music revolution. Get Gojira on your phone and
-            turn every listen into an experience.
+            Download the app and carry the divine grace of Aaisaheb Maharaj
+            and our village Late (Bajaranvadi) with you, every single day.
           </p>
           <div className="cta-buttons">
             <a href="#" className="store-btn">
@@ -610,8 +615,10 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
-        {/* /login, /signup and /privacy are now part of the landing page —
-            any other URL falls through to the catch-all below. */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        {/* Any other URL falls back to the landing page so refreshes
+            and unknown deep links still work. */}
         <Route path="*" element={<Landing />} />
       </Routes>
     </BrowserRouter>

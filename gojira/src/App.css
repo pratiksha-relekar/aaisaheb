@@ -1,5 +1,5 @@
 /* =================================================================
-   Gojira — Landing Page Styles
+   Aaisaheb — Landing Page Styles
    ================================================================= */
 
 .container {
@@ -200,8 +200,15 @@
   transition: transform 0.2s ease;
 }
 
-/* The mobile-only CTA inside the burger dropdown stays hidden on desktop */
-.nav-mobile-cta { display: none; }
+/* The mobile-only CTAs inside the burger dropdown stay hidden on desktop */
+.nav-mobile-cta,
+.nav-mobile-link { display: none; }
+
+/* Desktop ghost Login button — slightly tighter than primary */
+.nav-login {
+  padding: 10px 16px;
+  font-size: 13.5px;
+}
 
 @media (max-width: 960px) {
   .nav {
@@ -251,10 +258,20 @@
   .nav { padding: 12px 16px; gap: 8px; }
   .nav-cta { gap: 8px; }
   .nav-cta .btn:not(.theme-toggle) { display: none; }
+
+  .nav-mobile-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    width: 100%;
+    padding: 12px 18px;
+    font-size: 14px;
+  }
   .nav-mobile-cta {
     display: inline-flex;
     justify-content: center;
-    margin-top: 12px;
+    margin-top: 10px;
     width: 100%;
     padding: 12px 18px;
     font-size: 14px;
@@ -2288,6 +2305,8 @@
   flex-direction: column;
   gap: 10px;
 }
+.bullets--tight { margin: 4px 0 0; gap: 4px; }
+.bullets--tight li { font-size: 14px; line-height: 1.45; }
 .bullets li {
   position: relative;
   padding-left: 22px;
